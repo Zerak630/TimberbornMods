@@ -1,0 +1,12 @@
+{
+	"TemplateCollectionSpec": {
+		"CollectionId": "Buildings.Folktails",
+		"Blueprints#append": [
+			"Blueprints/Buildings/Decoration/PoweredRoof1x1.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredRoof1x2.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredRoof2x2.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredRoof2x3.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredRoof3x2.Folktails.blueprint"
+		]
+	}
+}

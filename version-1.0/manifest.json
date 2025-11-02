@@ -1,0 +1,8 @@
+{
+	"Name": "Powered Roofs",
+	"Version": "0.1",
+	"Id": "Zerak.PoweredRoofs",
+	"MinimumGameVersion": "1.0",
+	"Description": "Add powered roofs options. Inspired by Nerro's Half-Roofs mod.",
+	"RequiredMods": []
+}

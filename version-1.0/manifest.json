@@ -1,8 +1,8 @@
 {
 	"Name": "Powered Roofs",
-	"Version": "0.1",
+	"Version": "1.1",
 	"Id": "Zerak.PoweredRoofs",
 	"MinimumGameVersion": "1.0",
-	"Description": "Add powered roofs options. Inspired by Nerro's Half-Roofs mod.",
+	"Description": "Add side-powered roofs options to enhance the decoration of your colony. Inspired by Nerro's Half-Roofs mod.",
 	"RequiredMods": []
 }

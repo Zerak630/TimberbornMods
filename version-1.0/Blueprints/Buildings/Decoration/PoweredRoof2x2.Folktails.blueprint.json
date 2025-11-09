@@ -90,7 +90,7 @@
 	},
 	"PlaceableBlockObjectSpec": {
 		"ToolGroupId": "Decoration",
-		"ToolOrder": 42,
+		"ToolOrder": 43,
 		"ToolShape": "Square",
 		"Layout": "Single",
 		"CustomPivot": {
@@ -105,10 +105,10 @@
 		"DevModeTool": false
 	},
 	"LabeledEntitySpec": {
-		"DisplayNameLocKey": "Building.Roof2x2.DisplayName",
+		"DisplayNameLocKey": "Building.PoweredRoof2x2.DisplayName",
 		"DescriptionLocKey": "",
-		"FlavorDescriptionLocKey": "Building.Roof.FlavorDescription",
-		"Icon": "Buildings/Decoration/Roof2x2/Roof2x2Icon"
+		"FlavorDescriptionLocKey": "Building.PoweredRoof.FlavorDescription",
+		"Icon": "Sprites/PoweredRoof2x2"
 	},
 	"ContinuousEffectBuildingSpec": {
 		"Effects": [

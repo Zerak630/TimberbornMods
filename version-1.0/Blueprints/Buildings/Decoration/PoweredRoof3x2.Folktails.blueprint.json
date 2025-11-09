@@ -104,7 +104,7 @@
 	},
 	"PlaceableBlockObjectSpec": {
 		"ToolGroupId": "Decoration",
-		"ToolOrder": 44,
+		"ToolOrder": 45,
 		"ToolShape": "Square",
 		"Layout": "Single",
 		"CustomPivot": {
@@ -122,7 +122,7 @@
 		"DisplayNameLocKey": "Building.PoweredRoof3x2.DisplayName",
 		"DescriptionLocKey": "",
 		"FlavorDescriptionLocKey": "Building.PoweredRoof.FlavorDescription",
-		"Icon": "Buildings/Decoration/Roof3x2/Roof3x2Icon"
+		"Icon": "Sprites/PoweredRoof3x2"
 	},
 	"BlockObjectNavMeshSettingsSpec": {
 		"NoAutoWalls": false,

@@ -16,10 +16,10 @@
       {
         "Id": "Plank",
         "Amount": 3
-			},
-			{
-				"Id": "Gear",
-				"Amount": 3
+      },
+      {
+        "Id": "Gear",
+        "Amount": 3
       }
     ],
     "ScienceCost": 150,
@@ -36,57 +36,55 @@
     "UndergroundModelDepth": 0
   },
   "BlockObjectSpec": {
-    "BlocksSpec": {
-      "Size": {
-        "X": 3,
-        "Y": 2,
-        "Z": 1
-      },
-      "BlockSpecs": [
-        {
-          "MatterBelow": "GroundOrStackable",
-          "Occupations": "Bottom, Top, Corners, Path, Middle",
-          "Stackable": "None",
-          "OccupyAllBelow": false,
-          "Underground": false
-        },
-        {
-          "MatterBelow": "GroundOrStackable",
-          "Occupations": "Bottom, Top, Corners, Path, Middle",
-          "Stackable": "BlockObject",
-          "OccupyAllBelow": false,
-          "Underground": false
-        },
-        {
-          "MatterBelow": "GroundOrStackable",
-          "Occupations": "Bottom, Top, Corners, Path, Middle",
-          "Stackable": "None",
-          "OccupyAllBelow": false,
-          "Underground": false
-        },
-        {
-          "MatterBelow": "GroundOrStackable",
-          "Occupations": "Bottom, Top, Corners, Path, Middle",
-          "Stackable": "None",
-          "OccupyAllBelow": false,
-          "Underground": false
-        },
-        {
-          "MatterBelow": "GroundOrStackable",
-          "Occupations": "Bottom, Top, Corners, Path, Middle",
-          "Stackable": "BlockObject",
-          "OccupyAllBelow": false,
-          "Underground": false
-        },
-        {
-          "MatterBelow": "GroundOrStackable",
-          "Occupations": "Bottom, Top, Corners, Path, Middle",
-          "Stackable": "None",
-          "OccupyAllBelow": false,
-          "Underground": false
-        }
-      ]
+    "Size": {
+      "X": 3,
+      "Y": 2,
+      "Z": 1
     },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
     "Entrance": {
       "HasEntrance": false,
       "Coordinates": {
@@ -104,7 +102,7 @@
   },
   "PlaceableBlockObjectSpec": {
     "ToolGroupId": "Decoration",
-		"ToolOrder": 45,
+    "ToolOrder": 45,
     "ToolShape": "Square",
     "Layout": "Single",
     "CustomPivot": {
@@ -119,10 +117,10 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-		"DisplayNameLocKey": "Building.PoweredRoof3x2.DisplayName",
+    "DisplayNameLocKey": "Building.PoweredRoof3x2.DisplayName",
     "DescriptionLocKey": "",
-		"FlavorDescriptionLocKey": "Building.PoweredRoof.FlavorDescription",
-		"Icon": "Sprites/PoweredRoof3x2"
+    "FlavorDescriptionLocKey": "Building.PoweredRoof.FlavorDescription",
+    "Icon": "Sprites/PoweredRoof3x2"
   },
   "BlockObjectNavMeshSettingsSpec": {
     "NoAutoWalls": false,
@@ -170,7 +168,7 @@
           "Y": 1,
           "Z": 0
         },
-				"Directions": "Down, Bottom",
+        "Directions": "Down, Bottom",
         "ReverseRotation": false
       },
       {
@@ -179,7 +177,7 @@
           "Y": 1,
           "Z": 0
         },
-				"Directions": "Up, Bottom",
+        "Directions": "Up, Bottom",
         "ReverseRotation": false
       },
       {
@@ -203,7 +201,7 @@
     ],
     "IgnoreRotation": false
   },
-  "MechanicalConnectorReceiverSpec": {},
+  "MechanicalConnectorTargetSpec": {},
   "Children": {
     "#Finished": {
       "TimbermeshSpec": {

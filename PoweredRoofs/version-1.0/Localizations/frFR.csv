@@ -1,11 +1,14 @@
 ID,Text,Comment
+ToolGroups.Roofs,Toits,-
+ToolGroups.ClassicRoofs,Toits classiques,-
+ToolGroups.PoweredRoofs,Toits avec essieu,-
 Building.PoweredRoof1x1.DisplayName,Toit avec essieu 1x1,-
 Building.PoweredRoof1x2.DisplayName,Toit avec essieu 1x2,-
 Building.PoweredRoof2x2.DisplayName,Toit avec essieu 2x2,-
 Building.PoweredRoof2x3.DisplayName,Toit avec essieu 2x3,-
 Building.PoweredRoof3x2.DisplayName,Toit avec essieu 3x2,-
-Building.HalfRoof1x1.DisplayName,Toit pente simple 1x1,-
-Building.HalfRoof1x2.DisplayName,Toit pente simple 1x2,-
-Building.HalfRoof2x1.DisplayName,Toit pente simple 2x1,-
-Building.HalfRoof2x2.DisplayName,Toit pente simple 2x2,-
+Building.PoweredHalfRoof1x1.DisplayName,Toit en pente à essieu 1x1,-
+Building.PoweredHalfRoof1x2.DisplayName,Toit en pente à essieu 1x2,-
+Building.PoweredHalfRoof2x1.DisplayName,Toit en pente à essieu 2x1,-
+Building.PoweredHalfRoof2x2.DisplayName,Toit en pente à essieu 2x2,-
 Building.PoweredRoof.FlavorDescription,Ce toit intègre un essieu pour transmettre l'énergie avec style !,-

@@ -1,0 +1,12 @@
+{
+	"BlockObjectToolGroupSpec": {
+		"Id": "Roofs",
+		"Order": 10,
+		"NameLocKey": "ToolGroups.Roofs",
+		"Icon": "Buildings/Decoration/Roof1x1/Roof1x1Icon",
+		"FallbackGroup": false
+	},
+	"ParentToolGroupSpec": {
+		"ParentIds": [ "Decoration" ]
+	}
+}

@@ -6,7 +6,11 @@
 			"Blueprints/Buildings/Decoration/PoweredRoof1x2/PoweredRoof1x2.Folktails.blueprint",
 			"Blueprints/Buildings/Decoration/PoweredRoof2x2/PoweredRoof2x2.Folktails.blueprint",
 			"Blueprints/Buildings/Decoration/PoweredRoof2x3/PoweredRoof2x3.Folktails.blueprint",
-			"Blueprints/Buildings/Decoration/PoweredRoof3x2/PoweredRoof3x2.Folktails.blueprint"
+			"Blueprints/Buildings/Decoration/PoweredRoof3x2/PoweredRoof3x2.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredHalfRoof1x1/PoweredHalfRoof1x1.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredHalfRoof1x2/PoweredHalfRoof1x2.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredHalfRoof2x1/PoweredHalfRoof2x1.Folktails.blueprint",
+			"Blueprints/Buildings/Decoration/PoweredHalfRoof2x2/PoweredHalfRoof2x2.Folktails.blueprint"
 		]
 	}
 }

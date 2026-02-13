@@ -1,6 +1,6 @@
 {
 	"TemplateSpec": {
-		"TemplateName": "PoweredRoof2x2.Folktails",
+		"TemplateName": "PoweredHalfRoof1x2.Folktails",
 		"BackwardCompatibleTemplateNames": [],
 		"RequiredFeatureToggle": "",
 		"DisablingFeatureToggle": ""
@@ -22,7 +22,7 @@
 				"Amount": 2
 			}
 		],
-		"ScienceCost": 120,
+		"ScienceCost": 80,
 		"PlaceFinished": false,
 		"FinishableWithBeaversOnSite": false,
 		"DrawRangeBoundsOnIt": false
@@ -36,41 +36,29 @@
 		"UndergroundModelDepth": 0
 	},
 	"BlockObjectSpec": {
-		"Size": {
-			"X": 2,
-			"Y": 2,
-			"Z": 1
+		"BlocksSpec": {
+			"Size": {
+				"X": 1,
+				"Y": 2,
+				"Z": 1
+			},
+			"BlockSpecs": [
+				{
+					"MatterBelow": "GroundOrStackable",
+					"Occupations": "Bottom, Top, Corners, Path, Middle",
+					"Stackable": "None",
+					"OccupyAllBelow": false,
+					"Underground": false
+				},
+				{
+					"MatterBelow": "GroundOrStackable",
+					"Occupations": "Bottom, Top, Corners, Path, Middle",
+					"Stackable": "None",
+					"OccupyAllBelow": false,
+					"Underground": false
+				}
+			]
 		},
-		"Blocks": [
-			{
-				"MatterBelow": "GroundOrStackable",
-				"Occupations": "Bottom, Top, Corners, Path, Middle",
-				"Stackable": "None",
-				"OccupyAllBelow": false,
-				"Underground": false
-			},
-			{
-				"MatterBelow": "GroundOrStackable",
-				"Occupations": "Bottom, Top, Corners, Path, Middle",
-				"Stackable": "BlockObject",
-				"OccupyAllBelow": false,
-				"Underground": false
-			},
-			{
-				"MatterBelow": "GroundOrStackable",
-				"Occupations": "Bottom, Top, Corners, Path, Middle",
-				"Stackable": "None",
-				"OccupyAllBelow": false,
-				"Underground": false
-			},
-			{
-				"MatterBelow": "GroundOrStackable",
-				"Occupations": "Bottom, Top, Corners, Path, Middle",
-				"Stackable": "None",
-				"OccupyAllBelow": false,
-				"Underground": false
-			}
-		],
 		"Entrance": {
 			"HasEntrance": false,
 			"Coordinates": {
@@ -88,7 +76,7 @@
 	},
 	"PlaceableBlockObjectSpec": {
 		"ToolGroupId": "PoweredRoofs",
-		"ToolOrder": 12,
+		"ToolOrder": 21,
 		"ToolShape": "Square",
 		"Layout": "Single",
 		"CustomPivot": {
@@ -103,10 +91,10 @@
 		"DevModeTool": false
 	},
 	"LabeledEntitySpec": {
-		"DisplayNameLocKey": "Building.PoweredRoof2x2.DisplayName",
+		"DisplayNameLocKey": "Building.PoweredHalfRoof1x2.DisplayName",
 		"DescriptionLocKey": "",
-		"FlavorDescriptionLocKey": "Building.PoweredRoof.FlavorDescription",
-		"Icon": "Sprites/PoweredRoof2x2"
+		"FlavorDescriptionLocKey": "Building.PoweredHalfRoof.FlavorDescription",
+		"Icon": "Sprites/PoweredHalfRoof1x2Icon"
 	},
 	"ContinuousEffectBuildingSpec": {
 		"Effects": [
@@ -128,16 +116,7 @@
 					"Y": 0,
 					"Z": 0
 				},
-				"Directions": "Down, Bottom",
-				"ReverseRotation": false
-			},
-			{
-				"Coordinates": {
-					"X": 1,
-					"Y": 0,
-					"Z": 0
-				},
-				"Directions": "Down, Bottom",
+				"Directions": "Bottom",
 				"ReverseRotation": false
 			},
 			{
@@ -146,49 +125,40 @@
 					"Y": 1,
 					"Z": 0
 				},
-				"Directions": "Up, Bottom",
-				"ReverseRotation": false
-			},
-			{
-				"Coordinates": {
-					"X": 1,
-					"Y": 1,
-					"Z": 0
-				},
-				"Directions": "Up, Bottom",
+				"Directions": "Bottom, Down",
 				"ReverseRotation": false
 			}
 		],
 		"IgnoreRotation": false
 	},
-	"MechanicalConnectorTargetSpec": {},
+	"MechanicalConnectorReceiverSpec": {},
 	"Children": {
 		"#Finished": {
 			"TimbermeshSpec": {
-				"Model": "Buildings/Decoration/Roof2x2/Roof2x2.Folktails.Model"
+				"Model": "Buildings/Decoration/HalfRoof1x2/HalfRoof1x2.Folktails.Model"
 			},
 			"CollidersSpec": {
 				"BoxColliders": [
 					{
 						"Center": {
-							"X": 1.0,
+							"X": 0.5,
 							"Y": 0.2,
 							"Z": 1.0
 						},
 						"Size": {
-							"X": 1.6,
+							"X": 0.8,
 							"Y": 0.4,
 							"Z": 2.0
 						}
 					},
 					{
 						"Center": {
-							"X": 1.0,
+							"X": 0.5,
 							"Y": 0.6,
 							"Z": 1.0
 						},
 						"Size": {
-							"X": 0.5,
+							"X": 0.3,
 							"Y": 0.4,
 							"Z": 2.0
 						}
@@ -200,35 +170,35 @@
 		},
 		"#Unfinished": {
 			"Children": {
-				"ConstructionBase2x2#nested": {
-					"BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+				"ConstructionBase1x2#nested": {
+					"BlueprintPath": "ConstructionBases/ConstructionBase1x2/ConstructionBase1x2.blueprint"
 				},
 				"ConstructionStage0": {
 					"TimbermeshSpec": {
-						"Model": "Buildings/Decoration/Roof2x2/Roof2x2.Folktails.ConstructionStage0.Model"
+						"Model": "Buildings/Decoration/HalfRoof1x2/HalfRoof1x2.Folktails.ConstructionStage0.Model"
 					},
 					"CollidersSpec": {
 						"BoxColliders": [
 							{
 								"Center": {
-									"X": 1.0,
+									"X": 0.5,
 									"Y": 0.05,
 									"Z": 1.0
 								},
 								"Size": {
-									"X": 2.0,
+									"X": 1.0,
 									"Y": 0.1,
 									"Z": 2.0
 								}
 							},
 							{
 								"Center": {
-									"X": 1.005446,
+									"X": 0.499382,
 									"Y": 0.46143496,
 									"Z": 0.990771949
 								},
 								"Size": {
-									"X": 0.275142729,
+									"X": 0.20766753,
 									"Y": 0.7146387,
 									"Z": 1.86438549
 								}

@@ -1,14 +1,14 @@
 ID,Text,Comment
+ToolGroups.Roofs,Roofs,-
+ToolGroups.ClassicRoofs,Classic roofs,-
 ToolGroups.PoweredRoofs,Powered Roofs,-
 Building.PoweredRoof1x1.DisplayName,Powered Roof 1x1,-
 Building.PoweredRoof1x2.DisplayName,Powered Roof 1x2,-
 Building.PoweredRoof2x2.DisplayName,Powered Roof 2x2,-
 Building.PoweredRoof2x3.DisplayName,Powered Roof 2x3,-
 Building.PoweredRoof3x2.DisplayName,Powered Roof 3x2,-
-Building.PoweredHalfRoof1x1.DisplayName,Powered half Roof 1x1,-
-Building.PoweredHalfRoof1x2.DisplayName,Powered half Roof 1x2,-
-Building.PoweredHalfRoof2x1.DisplayName,Powered half Roof 2x1,-
-Building.PoweredHalfRoof2x2.DisplayName,Powered half Roof 2x2,-
-Building.PoweredHalfRoof3x2.DisplayName,Powered half Roof 3x2,-
-Building.PoweredHalfRoof2x3.DisplayName,Powered half Roof 2x3,-
+Building.PoweredHalfRoof1x1.DisplayName,Powered Half Roof 1x1,-
+Building.PoweredHalfRoof1x2.DisplayName,Powered Half Roof 1x2,-
+Building.PoweredHalfRoof2x1.DisplayName,Powered Half Roof 2x1,-
+Building.PoweredHalfRoof2x2.DisplayName,Powered Half Roof 2x2,-
 Building.PoweredRoof.FlavorDescription,These roofs embed a shaft making them transfer energy !,-

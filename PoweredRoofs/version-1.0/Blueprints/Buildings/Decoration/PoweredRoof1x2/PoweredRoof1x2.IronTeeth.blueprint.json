@@ -73,8 +73,8 @@
     "EffectRadius": 1
   },
   "PlaceableBlockObjectSpec": {
-    "ToolGroupId": "Decoration",
-		"ToolOrder": 42,
+    "ToolGroupId": "PoweredRoofs",
+		"ToolOrder": 11,
     "ToolShape": "Square",
     "Layout": "Single",
     "CustomPivot": {

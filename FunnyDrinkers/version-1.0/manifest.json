@@ -1,0 +1,9 @@
+{
+	"Name": "FunnyDrinkers",
+	"Version": "0.1",
+	"Id": "Zerak.Funnydrinkers",
+	"MinimumGameVersion": "1.0.0.0",
+	"Description": "Adds some funny drinkers to the taverns.",
+	"RequiredMods": [],
+	"OptionalMods": []
+}

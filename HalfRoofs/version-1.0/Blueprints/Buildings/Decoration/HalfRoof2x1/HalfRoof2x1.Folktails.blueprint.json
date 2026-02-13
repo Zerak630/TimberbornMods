@@ -1,0 +1,210 @@
+{
+	"TemplateSpec": {
+		"TemplateName": "HalfRoof2x1.Folktails",
+		"BackwardCompatibleTemplateNames": [],
+		"RequiredFeatureToggle": "",
+		"DisablingFeatureToggle": ""
+	},
+	"BuildingSpec": {
+		"SelectionSoundName": "Default",
+		"LoopingSoundName": "",
+		"BuildingCost": [
+			{
+				"Id": "Log",
+				"Amount": 4
+			},
+			{
+				"Id": "Plank",
+				"Amount": 2
+			}
+		],
+		"ScienceCost": 80,
+		"PlaceFinished": false,
+		"FinishableWithBeaversOnSite": false,
+		"DrawRangeBoundsOnIt": false
+	},
+	"BuildingModelSpec": {
+		"FinishedModelName": "#Finished",
+		"UnfinishedModelName": "#Unfinished",
+		"FinishedUncoveredModelName": "",
+		"UndergroundModelName": "",
+		"ConstructionModeModel": "Finished",
+		"UndergroundModelDepth": 0
+	},
+	"BlockObjectSpec": {
+		"BlocksSpec": {
+			"Size": {
+				"X": 2,
+				"Y": 1,
+				"Z": 1
+			},
+			"BlockSpecs": [
+				{
+					"MatterBelow": "GroundOrStackable",
+					"Occupations": "Bottom, Top, Corners, Path, Middle",
+					"Stackable": "None",
+					"OccupyAllBelow": false,
+					"Underground": false
+				},
+				{
+					"MatterBelow": "GroundOrStackable",
+					"Occupations": "Bottom, Top, Corners, Path, Middle",
+					"Stackable": "None",
+					"OccupyAllBelow": false,
+					"Underground": false
+				}
+			]
+		},
+		"Entrance": {
+			"HasEntrance": false,
+			"Coordinates": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		"BaseZ": 0,
+		"Overridable": false,
+		"Flippable": false
+	},
+	"RangedEffectBuildingSpec": {
+		"EffectRadius": 1
+	},
+	"PlaceableBlockObjectSpec": {
+		"ToolGroupId": "Decoration",
+		"ToolOrder": 36,
+		"ToolShape": "Square",
+		"Layout": "Single",
+		"CustomPivot": {
+			"HasCustomPivot": false,
+			"Coordinates": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.0
+			}
+		},
+		"CanBeAttachedToTerrainSide": false,
+		"DevModeTool": false
+	},
+	"LabeledEntitySpec": {
+		"DisplayNameLocKey": "Building.HalfRoof2x1.DisplayName",
+		"DescriptionLocKey": "",
+		"FlavorDescriptionLocKey": "Building.HalfRoof.FlavorDescription",
+		"Icon": "Sprites/HalfRoof2x1Icon"
+	},
+	"ContinuousEffectBuildingSpec": {
+		"Effects": [
+			{
+				"NeedId": "Roof",
+				"PointsPerHour": 0.2,
+				"SatisfyToMaxValue": false
+			}
+		]
+	},
+	"ConstructionSiteProgressVisualizerSpec": {
+		"ProgressThresholds": [0.0]
+	},
+	"TransputProviderSpec": {
+		"TransputSpecs": [
+			{
+				"Coordinates": {
+					"X": 0,
+					"Y": 0,
+					"Z": 0
+				},
+				"Directions": "Bottom",
+				"ReverseRotation": false
+			},
+			{
+				"Coordinates": {
+					"X": 0,
+					"Y": 1,
+					"Z": 0
+				},
+				"Directions": "Bottom",
+				"ReverseRotation": false
+			}
+		],
+		"IgnoreRotation": false
+	},
+	"MechanicalConnectorReceiverSpec": {},
+	"Children": {
+		"#Finished": {
+			"TimbermeshSpec": {
+				"Model": "Buildings/Decoration/HalfRoof2x1/HalfRoof2x1.Folktails.Model"
+			},
+			"CollidersSpec": {
+				"BoxColliders": [
+					{
+						"Center": {
+							"X": 1.0,
+							"Y": 0.2,
+							"Z": 0.5
+						},
+						"Size": {
+							"X": 2.0,
+							"Y": 0.4,
+							"Z": 0.8
+						}
+					},
+					{
+						"Center": {
+							"X": 1.0,
+							"Y": 0.6,
+							"Z": 0.5
+						},
+						"Size": {
+							"X": 2.0,
+							"Y": 0.4,
+							"Z": 0.3
+						}
+					}
+				],
+				"SphereColliders": [],
+				"CapsuleColliders": []
+			}
+		},
+		"#Unfinished": {
+			"Children": {
+				"ConstructionBase2x1#nested": {
+					"BlueprintPath": "Blueprints/ConstructionBases/ConstructionBase2x1/ConstructionBase2x1.blueprint"
+				},
+				"ConstructionStage0": {
+					"TimbermeshSpec": {
+						"Model": "Buildings/Decoration/HalfRoof2x1/HalfRoof2x1.Folktails.ConstructionStage0.Model"
+					},
+					"CollidersSpec": {
+						"BoxColliders": [
+							{
+								"Center": {
+									"X": 1.0,
+									"Y": 0.05,
+									"Z": 0.5
+								},
+								"Size": {
+									"X": 2.0,
+									"Y": 0.1,
+									"Z": 1.0
+								}
+							},
+							{
+								"Center": {
+									"X": 0.990771949,
+									"Y": 0.46143496,
+									"Z": 0.499382
+								},
+								"Size": {
+									"X": 1.86438549,
+									"Y": 0.7146387,
+									"Z": 0.20766753
+								}
+							}
+						],
+						"SphereColliders": [],
+						"CapsuleColliders": []
+					}
+				}
+			}
+		}
+	}
+}

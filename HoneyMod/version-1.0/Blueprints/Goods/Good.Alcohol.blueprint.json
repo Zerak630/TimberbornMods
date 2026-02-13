@@ -1,0 +1,38 @@
+{
+	"GoodSpec": {
+		"Id": "Alcohol",
+		"BackwardCompatibleIds": [],
+		"ConsumptionEffects": [
+			{
+				"NeedId": "Hunger",
+				"Points": 0.1
+			},
+			{
+				"NeedId": "Fun",
+				"Points": 0.4
+			},
+			{
+				"NeedId": "Thrist",
+				"Points": -0.1
+			}
+		],
+		"GoodType": "Box",
+		"StockpileVisualization": "Box",
+		"VisibleContainer": "Box",
+		"ContainerColor": {
+			"r": 0.882353,
+			"g": 0.937255,
+			"b": 0.976471,
+			"a": 1.0
+		},
+		"ContainerMaterial": "",
+		"CarryingAnimation": "CarryInHands",
+		"Weight": 1.0,
+		"GoodGroupId": "Food",
+		"GoodOrder": 9100,
+		"Icon": "Sprites/Goods/AlcoholIcon",
+		"ForceImport": true,
+		"DisplayNameLocKey": "Good.Alcohol.DisplayName",
+		"PluralDisplayNameLocKey": "Good.Alcohol.PluralDisplayName"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"GoodCollectionSpec": {
+		"CollectionId": "Folktails",
+		"Goods#append": ["Alcohol", "Apple", "Rice"]
+	}
+}

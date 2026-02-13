@@ -1,0 +1,30 @@
+{
+	"GoodSpec": {
+		"Id": "Rice",
+		"BackwardCompatibleIds": [],
+		"ConsumptionEffects": [
+			{
+				"NeedId": "Hunger",
+				"Points": 0.3
+			}
+		],
+		"GoodType": "Box",
+		"StockpileVisualization": "Box",
+		"VisibleContainer": "Box",
+		"ContainerColor": {
+			"r": 0.972549,
+			"g": 0.960784,
+			"b": 0.913725,
+			"a": 1.0
+		},
+		"ContainerMaterial": "",
+		"CarryingAnimation": "CarryInHands",
+		"Weight": 0.5,
+		"GoodGroupId": "Food",
+		"GoodOrder": 9070,
+		"Icon": "Sprites/Goods/RiceIcon",
+		"ForceImport": true,
+		"DisplayNameLocKey": "Good.Rice.DisplayName",
+		"PluralDisplayNameLocKey": "Good.Rice.PluralDisplayName"
+	}
+}

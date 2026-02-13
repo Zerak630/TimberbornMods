@@ -1,0 +1,11 @@
+{
+	"TemplateCollectionSpec": {
+		"CollectionId": "Buildings.IronTeeth",
+		"Blueprints#append": [
+			"Blueprints/Buildings/Decoration/HalfRoof1x1/HalfRoof1x1.IronTeeth.blueprint",
+			"Blueprints/Buildings/Decoration/HalfRoof1x2/HalfRoof1x2.IronTeeth.blueprint",
+			"Blueprints/Buildings/Decoration/HalfRoof2x1/HalfRoof2x1.IronTeeth.blueprint",
+			"Blueprints/Buildings/Decoration/HalfRoof2x2/HalfRoof2x2.IronTeeth.blueprint"
+		]
+	}
+}

@@ -141,7 +141,7 @@
 		"ProgressThresholds": [0.0]
 	},
 	"TransputProviderSpec": {
-		"TransputSpecs": [
+		"Transputs": [
 			{
 				"Coordinates": {
 					"X": 0,

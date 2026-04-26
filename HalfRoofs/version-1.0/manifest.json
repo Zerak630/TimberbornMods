@@ -1,8 +1,8 @@
 {
   "Name": "Half Roofs",
-  "Version": "1.0",
+  "Version": "1.0.1",
   "Id": "Nerro.HalfRoofs",
-  "MinimumGameVersion": "1.0.0.0",
+  "MinimumGameVersion": "1.0.9",
   "Description": "Roofs that are halves",
   "RequiredMods": []
 }
